@@ -6,7 +6,8 @@ def prime?(number)
     return TRUE
   elsif (2..number - 1).each do |x| (number % x) == 0 
       return FALSE
+    else 
+      return TRUE
   end
-  return TRUE
   end
 end
