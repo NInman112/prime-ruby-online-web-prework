@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(number)
-  if number.prime?
+  Prime.prime?(number)
 end
